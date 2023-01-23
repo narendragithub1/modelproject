@@ -21,8 +21,7 @@ public class Selectorhub {
 		WebDriverManager.chromedriver().setup();
 		RemoteWebDriver driver=new ChromeDriver(); 
 		driver.get("https://selectorshub.com/xpath-practice-page/");
-		Thread.sleep(5000);
-	/*	driver.manage().window().maximize();
+		Thread.sleep(5000);/*	driver.manage().window().maximize();
 		driver.findElement(By.name("email")).sendKeys("Narendra");
 		driver.findElement(By.name("Password")).sendKeys("Password");
 		driver.findElement(By.name("company")).sendKeys("xyz");
@@ -83,7 +82,7 @@ public class Selectorhub {
 			
 		}
 		
-		System.out.println("all row completed");*/
+		System.out.println("all row completed");
 	driver.findElement(By.xpath("//iframe[@src='https://selectorshub.com/input-box/']"));
 		driver.findElement(By.xpath("//input[@placeholder='Current Crush Name']")).sendKeys("abcd");;
 		//driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
