@@ -120,7 +120,7 @@ public class Magnitia {
     		        findElement(By.xpath("//viewer-toolbar[@id='toolbar']")).getShadowRoot().
     		        findElement(By.xpath("//viewer-download-controls[@id='downloads']")).getShadowRoot().
     		        findElement(By.xpath("//cr-icon-button[@aria-label='Download']")).getShadowRoot().
-    		        findElement(By.tagName("iron-icon")).click();**/
+    		        findElement(By.tagName("iron-icon")).click();*/
     		  
     		
     		
