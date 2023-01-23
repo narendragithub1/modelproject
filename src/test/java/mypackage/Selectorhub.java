@@ -115,7 +115,7 @@ public class Selectorhub {
 			
 		}
 		System.out.println(" total no  of india= "+count);
-		
+		System.out.println(" total no  of india= "+count);
 	}
 
 }
