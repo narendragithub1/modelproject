@@ -84,13 +84,16 @@ public class Selectorhub {
 		}
 		
 		System.out.println("all row completed");*/
-	driver.findElement(By.xpath("//iframe[@src='https://selectorshub.com/input-box/']"));
+	/*driver.findElement(By.xpath("//iframe[@src='https://selectorshub.com/input-box/']"));
 		driver.findElement(By.xpath("//input[@placeholder='Current Crush Name']")).sendKeys("abcd");;
 		//driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
 		/*driver.findElement(By.xpath("//div[@id='userName']")).getShadowRoot().
-               findElement(By.xpath("//a[@class='learningHub']")).click();
+               findElement(By.xpath("//a[@class='learningHub']")).click();*/
+		//driver.findElement(By.cssSelector("#userName")).getShadowRoot().findElement(By.cssSelector("#kils")).sendKeys("Govind");
+		driver.findElement(By.xpath("//div[@id='userName']")).getShadowRoot().
+        findElement(By.xpath("//input[@title='user name field']")).sendKeys("narendra kumar");
 		driver.findElement(By.xpath("//div[@id='snacktime']")).getShadowRoot().
-        findElement(By.xpath("//a[text()='Testers Food']")).click();*/
+        findElement(By.xpath("//a[text()='Testers Food']")).click();
 		driver.findElement(By.xpath("//select[@name='tablepress-1_length']")).click();
 		driver.findElement(By.xpath("//option[text()='100']")).click();
 		List< WebElement> l2=driver.findElements(By.xpath("(//table)[2]/tbody/tr"));
