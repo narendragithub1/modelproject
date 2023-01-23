@@ -115,7 +115,7 @@ public class Selectorhub {
 			
 		}
 		System.out.println(" total no  of india= "+count);
-		//driver.findElement(By.cssSelector("#kils")).sendKeys("pqr");
+		
 	}
 
 }
