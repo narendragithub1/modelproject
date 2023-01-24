@@ -78,7 +78,7 @@ public class Magnitia {
     		Thread.sleep(5000);
     		driver.findElement(By.xpath("//a[text()='Online Training']")).click();
     		Thread.sleep(5000);
-    	/*	driver.findElement(By.xpath("//li[@class='wtapp']")).click();
+         	driver.findElement(By.xpath("//li[@class='wtapp']")).click();
     		Thread.sleep(5000);
     		Set<String> s=driver.getWindowHandles();
     		ArrayList<String> l=new ArrayList<String>(s);
@@ -97,7 +97,7 @@ public class Magnitia {
     		catch(Exception e1)
     		{
     			
-    		}*/
+    		}
     		driver.findElement(By.xpath("(//a[@class='nav-link dropdown-toggle'])[1]")).click();
     		Thread.sleep(5000);
     		driver.findElement(By.xpath("//a[text()='Selenium Training']")).click();
