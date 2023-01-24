@@ -111,16 +111,16 @@ public class Magnitia {
     		Thread.sleep(5000);
     		driver.findElement(By.xpath("//a[text()='Course Content']")).click();
     		Thread.sleep(5000);
-    		/* Set<String> s1=driver.getWindowHandles();
+    		Set<String> s1=driver.getWindowHandles();
     		 List<String> l2=new ArrayList(s1);   
               driver.switchTo().window(l2.get(1));
              Thread.sleep(5000);
              System.out.println(l2.size());
-    	/*	driver.findElement(By.xpath("//pdf-viewer[@id='viewer']")).getShadowRoot().
+    		driver.findElement(By.xpath("//pdf-viewer[@id='viewer']")).getShadowRoot().
     		        findElement(By.xpath("//viewer-toolbar[@id='toolbar']")).getShadowRoot().
     		        findElement(By.xpath("//viewer-download-controls[@id='downloads']")).getShadowRoot().
     		        findElement(By.xpath("//cr-icon-button[@aria-label='Download']")).getShadowRoot().
-    		        findElement(By.tagName("iron-icon")).click();*/
+    		        findElement(By.tagName("iron-icon")).click();
     		  
     		
     		
